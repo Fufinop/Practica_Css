@@ -6,7 +6,7 @@ Para esta práctica se necesita que clonen la página que está en el siguiente 
 
 Como pueden ver es una página de vacunación y en estos momentos que se está poniendo la tercer dosis en varios estados de la república y que en algunos otros se está poniendo la segunda o incluso la primera sigue siendo muy importante recordar toda esta información.
 
-La práctica consiste en lo siguiente:
+##La práctica consiste en lo siguiente:
 
 -   Planeación de campaña de vacunación (Un poco de mercadotecnia para llegar al sitio)
 -   Maquetación del sitio con HTML
