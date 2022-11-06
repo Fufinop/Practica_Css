@@ -139,7 +139,7 @@ button:hover {
 	display: flex;
 	max-width: 50vw;
 	padding-top: 7.5em;
-	padding-left: 120px;
+	padding-left: 0px;
 	grid-area: 1 / 2 / 4 / 3;
 	background: rgb(42, 71, 116);
 	background: linear-gradient(
@@ -147,6 +147,10 @@ button:hover {
 		hsla(195, 86%, 50%, 1) 0%,
 		hsla(236, 93%, 65%, 1) 100%
 	);
+}
+
+.enfermera {
+	padding-left: 200px;
 }
 
 .cita-contenedor {
