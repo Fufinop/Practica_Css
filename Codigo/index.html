@@ -1,196 +1,314 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunación</title>
     <link rel="stylesheet" href="style.css">
-    <title>Vacunas</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,1,200">
+
 </head>
 
 <body>
-    <nav>
-        <div id="logo">Vaccination</div>
+    <nav id="nav">
+        <div id="logo">
+            Vaccination
+        </div>
         <div id="menu-nav">
             <ul>
-                <li class="Nav-item"><a href="">Database</a></li>
-                <li class="Nav-item"><a href="">Education</a></li>
-                <li class="Nav-item"><a href="">News</a></li>
-                <li class="Nav-item"><a href="">Regulation</a></li>
-                <li class="Nav-item"><a href="">Hoax Buster</a></li>
+                <a class="menu-item" href="#">Database</a>
+                <a class="menu-item" href="#">Education</a>
+                <a class="menu-item" href="#">News</a>
+                <a class="menu-item" href="#">Regulation</a>
+                <a class="menu-item" href="#">Hoax Buster</a>
             </ul>
         </div>
     </nav>
-    <section>
-        <article>
-            <h1>Fight Virus With Vaccines</h1>
-            <p>Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get
-                infected
-            </p>
-            <i></i>
-            <p>Best protection</p>
-            <i></i>
-            <p>Selected Vaccines</p>
-        </article>
-        <i></i>
-        <p>Schedule your vaccinations</p>
-        <article>
-            <table>
-                <tr>
-                    <th><i></i>Location</th>
-                    <th><i></i>Date</th>
-                    <th><i></i>Vaccine Type</th>
-                </tr>
-                <tr>
-                    <td>Jakarta Utara</td>
-                    <td>08 July 2021</td>
-                    <td>Moderna</td>
-                </tr>
-            </table>
-            <button>Submit</button>
-        </article>
-        <div class="imgBackground">
-            <img src="" alt="">
+    <!--Sección 1 inicio-->
+    <section class="seccion1">
+        <div class="contenedor1">
+            <div>
+                <h1>Fight Virus<br>With Vaccines</h1>
+
+            </div>
+        </div>
+
+        <div class="contenedor2">
+            <div>
+                <h2>Let's stop this pandemic by killing the virus<br> with a vaccine, don't let yourself and your<br>
+                    family get infected</h2>
+            </div>
+        </div>
+
+        <div class="contenedor3">
+            <div>
+                <ul>
+                    <span class="material-symbols-outlined">verified_user</span>
+                    <il>Best Protection</il>
+                    <span class="material-symbols-outlined">star</span>
+                    <il>Selected vaccines</il>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contenedor4">
+            <img class="enfermera" src="../Imagenes/enfermera.png" alt="">
+        </div>
+    </section>
+
+    <!--barra de cita-->
+    <section id="cita">
+
+        <div class="cita-contenedor">
+            <div class="cita-card-1">
+                <span id="iconoazul" class="material-symbols-outlined">schedule</span>
+                <h2 class="cita-text1"><span></span> Schedule your vaccinations</h2>
+            </div>
+
+            <div class="cita-card-2">
+                <span id="iconoazul" class="material-symbols-outlined">location_on</span>
+                <h2>Location</h2>
+            </div>
+
+            <div class="cita-card-3">
+                <span id="iconoazul" class="material-symbols-outlined">calendar_month</span>
+                <h2>Date</h2>
+            </div>
+
+            <div class="cita-card-4">
+                <span id="iconoazul" class="material-symbols-outlined">vaccines</span>
+                <h2>Vaccine Type</h2>
+            </div>
+
+            <div class="cita-card-5">
+                <input type="text" name="" id="" placeholder="Jakarta Utara">
+            </div>
+
+            <div class="cita-card-6">
+                <input type="date" name="" id="" placeholder="08/07/2021">
+            </div>
+
+            <div class="cita-card-7">
+                <input list="ciudad" placeholder="moderna">
+                <datalist id="ciudad">
+                    <option value="AstraZeneca">
+                    </option>
+                    <option value="SINOVAC">
+                    </option>
+                    <option value="Pfizer">
+                    </option>
+                    <option value="moderna">
+                    </option>
+                </datalist>
+            </div>
+
+            <div class="cita-card-8">
+                <button>Submit</button>
+            </div>
 
         </div>
     </section>
-    <section>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+
+    <!--Imágenes de vacunas-->
+    <section id="marcas-vacuans">
+        <div class="marcas">
+            <div class="marca">
+                <img src="../Imagenes/astrazeneca.png" alt="" width="200px">
+            </div>
+            <div class="marca">
+                <img src="../Imagenes/sinovac.jpg" alt="" width="200px">
+            </div>
+            <div class="marca">
+                <img src="../Imagenes/pfizer.png" alt="" width="200px">
+            </div>
+            <div class="marca">
+                <img src="../Imagenes/moderna.png" alt="" width="200px">
+            </div>
         </div>
-        <article>
-            <h3>Why should i vaccine?</h3>
-            <p>In order to avoid any doubts about getting the COVID-19 vaccine, identify the following 4 benefits of
-                COVID-19 vaccination: </p>
-        </article>
-        <article>
-            <i></i>
-            <h3>Minimize the spread of viruses</h3>
-            <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
-        </article>
-        <article>
-            <i></i>
-            <h3>Farming antibodies</h3>
-            <p>COVID-19 vaccine proven to help shape antibody response for immune system</p>
-        </article>
-        <article>
-            <i></i>
-            <h3>Protecting people nearby</h3>
-            <p>The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us
-            </p>
-        </article>
-        <article>
-            <i></i>
-            <h3>Creating group immunity</h3>
-            <p>COVID-19 vaccination in also beneficial for creating group immunity or herd immunity</p>
-        </article>
     </section>
-    <section>
-        <img src="" alt="">
-        <article>
-            <h3>Preparations Before Vaccine</h3>
-            <p>the success of vaccines is strongly influenced by the strength of the body's immune system. Therefore,
-                there are several things that can be tried to make the COVID-19 vaccine work:
-            </p>
-        </article>
-        <article>
-            <i></i>
-            <h4>Avoid alcoholic beverages</h4>
-            <i></i>
-        </article>
-        <article>
-            <i></i>
-            <h4>Avoid stress</h4>
-            <i></i>
-        </article>
-        <article>
-            <i></i>
-            <h4>Eat healthy food</h4>
-            <i></i>
-        </article>
-        <article>
-            <i></i>
-            <h4>Get enough sleep</h4>
-            <i></i>
-        </article>
-        <i></i>
-        <h4>Exercise or physical activity</h4>
-        <i></i>
+
+    <!--por que vacunarse-->
+    <section id="vacunarse">
+        <div class="why-container">
+            <div>
+                <h1>Why should I vaccine?</h1>
+            </div><br><br><br>
+            <div>
+                <h2>In order to avoid any doubts about getting the COVID-19<br>vaccine, identify the following 4
+                    benefits
+                    of COVID-19<br>vaccination :</h2>
+            </div><br><br>
+        </div>
+
+        <div class="why-container2">
+            <div class="why-card">
+                <div>
+                    <span id="iconoazulgrande" class="material-symbols-outlined" style="font-size: 50px;">tune</span>
+                </div><br><br>
+                <div>
+                    <h1 style="font-size: 2.0rem;">Minimize the<br>spread of viruses</h1>
+                </div><br><br><br>
+                <div>
+                    <h3>Vaccine has been proven<br> effective to prevent someone<br>from getting infected
+                        with<br>Coronavirus</h3>
+                </div>
+            </div>
+
+            <div class="why-card">
+                <span id="iconoazulgrande" class="material-symbols-outlined"
+                    style="font-size: 50px;">verified_user</span><br><br><br>
+                <h1 style="font-size: 2.0rem;">Forming<br>antibodies</h1><br><br><br>
+                <h3>COVID-19 vaccines proven to<br>helps shape antibody<br>response for immune system</h3>
+            </div>
+
+            <div class="why-card">
+                <span id="iconoazulgrande" class="material-symbols-outlined"
+                    style="font-size: 50px;">groups</span><br><br><br>
+                <h1 style="font-size: 2.0rem;">Protecting<br>people nearby</h1><br><br><br>
+                <h3>The benefits of COVID-19<br>vaccination are the vaccine<br>that we get can algo help<br> protect
+                    people around us</h3>
+            </div>
+
+            <div class="why-card">
+                <span id="iconoazulgrande" class="material-symbols-outlined"
+                    style="font-size: 50px;">monitor_heart</span><br><br><br>
+                <h1 style="font-size: 2.0rem;">Creating group<br>immunity</h1><br><br><br>
+                <h3>COVID-19 vaccination is also<br>beneficial for creating group<br>immunity or heard immunity</h3>
+            </div>
+
+        </div>
     </section>
-    <section>
-        <h3>Emergency Contact</h3>
-        <p>Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as
-            COVID-19, make sure you also take care of yourself before reporting to us:
-        </p>
+    <section id="preparations">
+        <div class="img">
+            <img src="../Imagenes/mujer_cubrebocas.png" alt="">
+        </div>
+        <div class="preparations">
+            <h1>Preparations Before Vaccine</h1><br><br><br>
+            <h2>The success of vaccines is strongly influenced by the<br>strength of the body's immune system.
+                Therefore,
+                there are<br>several things that can be tried to make the COVID-19<br>vaccine work :</h2>
+
+            <container id="preparaciones">
+                <div class="columna">
+                    <span id="iconoazulgrande" class="material-symbols-outlined">gpp_bad</span>
+                    <h2 style="color: #1f3e72;font-weight:  bold; ">Avoid alcoholic beverages</h2>
+                    <span id="iconoazulgrande" class="material-symbols-outlined">expand_more</span>
+                </div>
+                <div class="columna">
+                    <span id="iconoazulgrande" class="material-symbols-outlined">gpp_bad</span>
+                    <h2 style="color: #1f3e72;font-weight:  bold; ">Avoid stress</h2>
+                    <span id="iconoazulgrande" class="material-symbols-outlined">expand_more</span>
+                </div>
+                <div class="columna">
+                    <span id="iconoazulgrande" class="material-symbols-outlined">gpp_bad</span>
+                    <h2 style="color: #1f3e72;font-weight:  bold; ">Eat healthy food</h2>
+                    <span id="iconoazulgrande" class="material-symbols-outlined">expand_more</span>
+                </div>
+                <div class="columna">
+                    <span id="iconoazulgrande" class="material-symbols-outlined">gpp_bad</span>
+                    <h2 style="color: #1f3e72;font-weight:  bold; ">Get enough sleep</h2>
+                    <span id="iconoazulgrande" class="material-symbols-outlined">expand_more</span>
+                </div>
+                <div class="columna">
+                    <span id="iconoazulgrande" class="material-symbols-outlined">gpp_bad</span>
+                    <h2 style="color: #1f3e72;font-weight:  bold; ">Exercise or physical activity</h2>
+                    <span id="iconoazulgrande" class="material-symbols-outlined">expand_more</span>
+                </div>
+            </container>
+
+        </div>
+
     </section>
-    <section>
-        <div>
-            <i></i>
-            <h4>Call</h4>
-            <p>021.123.145.14</p>
-            <button>Call Now</button>
-        </div>
-        <div>
-            <i></i>
-            <h4>Chat</h4>
-            <p>021.123.145.14</p>
-            <button>Chat Now</button>
-        </div>
-        <div>
-            <i></i>
-            <h4>Video Call</h4>
-            <p>021.123.145.14</p>
-            <button>Video Call Now</button>
-        </div>
-        <div>
-            <i></i>
-            <h4>Message</h4>
-            <p>021.123.145.14</p>
-            <button>Message Now</button>
-        </div>
-        <img src="" alt="">
+    <section id="emergency">
+        <h1>Emergency Contact</h1><br><br>
+        <h2>contact one of the contacts below if you or your family feel<br>in well and have similar symptoms such as
+            COVID-19, make<br>sure you also take care of yourself before reporting to us :</h2>
     </section>
+    <section id="emergency-display">
+        <div class="tarjetas-contacto">
+
+            <div class="contacto">
+                <div class="campo1"><span id="iconoazulgrande" style="font-size: 50px;"
+                        class="material-symbols-outlined">call</span></div>
+                <div class="campo2">
+                    <h2 style="color: #1f3e72;">Call</h2>021.123.145.14
+                </div>
+                <div class="campo3"><button class="button2">Call Now</button></div>
+            </div>
+
+            <div class="contacto">
+                <div class="campo1"><span id="iconoazulgrande" style="font-size: 50px;"
+                        class="material-symbols-outlined">chat</span></div>
+                <div class="campo2">
+                    <h2 style="color: #1f3e72;">Chat</h2>021.123.145.14
+                </div>
+                <div class="campo3"><button class="button2">Chat Now</button></div>
+            </div>
+
+            <div class="contacto">
+                <div class="campo1"><span id="iconoazulgrande" style="font-size: 50px;"
+                        class="material-symbols-outlined">video_call</span></div>
+                <div class="campo2">
+                    <h2 style="color: #1f3e72;">Video Call</h2>021.123.145.14
+                </div>
+                <div class="campo3"><button class="button2">Video Call Now</button></div>
+            </div>
+
+            <div class="contacto">
+                <div class="campo1"><span id="iconoazulgrande" style="font-size: 50px;"
+                        class="material-symbols-outlined">mail</span></div>
+                <div class="campo2">
+                    <h2 style="color: #1f3e72;">Message</h2>021.123.145.14
+                </div>
+                <div class="campo3"><button class="button2">Message Now</button></div>
+            </div>
+
+        </div>
+
+        <div class="img-emergencia">
+            <img class="img-emergencia-size" src="../Imagenes/enfermero.png" alt="">
+        </div>
+    </section>
+
+    <!--Footer-->
     <footer>
-        <article>
-            <h4>Vaccination</h4>
-            <p>Our goal is to help the world free from the ongoing pandemic</p>
-        </article>
-        <div>
-            <h4>About</h4>
-            <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">News & Blog</a></li>
-            </ul>
+        <div class="footer">
+            <div class="footer-1">
+                <h1 style="color: #2848c6;">Vaccination</h1><br>
+                <p>Our goal is to help<br>world free from the<br>ongoing pandemic</p>
+
+            </div>
+            <div class="footer-2">
+                <h2 style="color: #1f3e72;font-weight: bold;">About</h2><br><br>
+                <p>About US</p><br>
+                <p>Features</p><br>
+                <p>News & Blog</p><br>
+
+            </div>
+            <div class="footer-3">
+                <h2 style="color: #1f3e72;font-weight: bold;">Company</h2><br><br>
+                <p>How We Work?</p><br>
+                <p>Capital</p><br>
+                <p>Security</p><br>
+            </div>
+            <div class="footer-4">
+                <h2 style="color: #1f3e72;font-weight: bold;">Support</h2><br><br>
+                <p>FAQs</p><br>
+                <p>Support Center</p><br>
+                <p>Contact US</p><br>
+            </div>
+
+            <div class="footer-5">
+                <p>@2021 Vaccination. All rights reserved</p>
+                <p>Terms & Agreements</p>
+                <p>Privacy Policy</p>
+            </div>
         </div>
-        <div>
-            <h4>Company</h4>
-            <ul>
-                <li><a href="">How We Work?</a></li>
-                <li><a href="">Capital</a></li>
-                <li><a href="">Security</a></li>
-            </ul>
-        </div>
-        <div>
-            <h4>Support</h4>
-            <ul>
-                <li><a href="">FAQs</a></li>
-                <li><a href="">Support Center</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-        </div>
-        <h4>@2021 Vaccination. All rights reserved</h4>
-        <a href="">
-            <h4>Terms & Agreements</h4>
-        </a>
-        <a href="">
-            <h4>Privacy Policy</h4>
-        </a>
     </footer>
+
+
 </body>
 
 </html>
